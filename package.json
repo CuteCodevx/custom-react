@@ -1,0 +1,26 @@
+{
+  "name": "wq-learning",
+  "version": "1.0.0",
+  "description": "学习react和webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "qian wei",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^5.24.4",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "css-loader": "^5.1.2",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
